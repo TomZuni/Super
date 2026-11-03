@@ -1,0 +1,15 @@
+/* =====================================================
+   Supermercado Central – estilos
+   Se usa Tailwind CSS: casi todo el diseño se escribe con
+   clases de utilidad directamente en los componentes.
+   Aquí solo se importa Tailwind y se define la paleta de la marca.
+   ===================================================== */
+@import "tailwindcss";
+
+@theme {
+  --color-verde-50: #e6f3ec;
+  --color-verde-100: #cfe8da;
+  --color-verde-600: #1f7a4d;
+  --color-verde-700: #155c3a;
+  --color-fondo: #f4f7f5;
+}
